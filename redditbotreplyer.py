@@ -18,7 +18,7 @@ def harass():
                          password=BOT_PASSWORD,
                          client_id=BOT_CLIENT_ID,
                          client_secret=BOT_CLIENT_SECRET,
-                         user_agent='UserHarasser v0.1 by /u/throwaway_the_fourth for /u/testmatchelitist. See https://redd.it/6ulado.')
+                         user_agent='reddit-bot-replyer')
 
     try:
         for comment in reddit.subreddit(TARGET_SUBREDDIT).stream.comments():
